@@ -1,0 +1,41 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 100px;
+    width: 100px;
+}
+#btn1{
+    background-color: chocolate;
+}
+#btn2{
+    background-color: deepskyblue;
+}
+
+.cards{
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#newcards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#youcards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
